@@ -1,0 +1,142 @@
+body {
+		background-image : url(background.jpg);
+		
+     } 	
+
+
+h1 {
+	color:red; 
+	font-size: 30px; /*Mettre le titre 1 en rouge en taille 25*/
+	text-shadow: 3px black;
+    }
+h2 {
+	color:#80E237; 
+	font-size: 25px; /*Mettre le titre 2 en bleu en taille 20*/
+	} 
+
+#nav  {
+	padding: 0; margin: 0;/*espace entre la marge du haut et le menu*/
+	text-align: center; /*centre le texte*/
+}	
+	
+
+
+#nav li {
+	display : inline;
+	list-style : non; 
+}	
+	
+
+#nav a {
+		display: inline-block;
+		margin : 0 40 3 4px;
+		background: #3744E2; /*Couleur de fond*/
+		width: 250px;
+		text-decoration: yes; /*pas d'héritage avec effet souligné*/
+		color: black; /*couleur du texte*/
+		height: 30px; /*hauteur*/
+		line-height: 3 50 3 50px; /*interligne*/
+		padding: 0 50px; /*marges interieur*/
+		font-family: Confortaa; /*police d'ecriture*/
+		font-size: 20px; /*taille du texte*/
+		border-radius: 15px;
+		border : 3px solid #000000;
+		box-shadow :8px 8px 10px 0 rgba(0,0,0,0.5);
+		
+}
+
+#nav a:hover {background: white;} 
+
+img{
+	width: 25%;	/*Largeur on peut egalement metre la taille en pixel*/
+	height:25%;	/*Hauteur*/
+	border : 3px solid #000000;
+	
+
+}	
+
+table{
+    border: 2px;
+    border-collapse: collapse;
+    text-align: center; /* centre tous les textes a l'intérieur du tableau */
+    width: 95%; /* Le tableau prend 95% de la page */
+    margin: auto; /* centre le tableau */
+	border-style : solid;
+    }
+    
+tr {
+    background-color: white;
+	border-style : solid;
+    }
+    
+td { 
+    border : 2px solid black; 
+    padding: 5px; /* On aggrandi la taille des cellules pour pas que ça fasse trop compressé */
+    margin: 5px; /* on décolle les bords de 5px */
+	border-style : solid;
+    }
+	
+	
+th { 
+    border : 3px black;
+	background-color: #black;
+    height:45px; 
+    border: ridge 1.5px; 
+	color: black;
+	border-style : solid;
+    }
+
+.entete { 
+    background-color: white; /*couleur fond */
+    color: black;			/*couleur texte*/
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#banniere{
+	background-image: url("banniere.jpg");
+	height: 200px;	/*Hauteur image*/
+	width : 800px;	/*largeur image*/
+	margin : auto;
+	border-radius: 30px; /*arrondir l'image*/
+	border : 3px solid #000000; /*mettre un contour a l'image*/
+	box-shadow :8px 8px 10px 0 rgba(0,0,0,0.5);
+	margin-bottom:10px; /*mettre une marge en haut et en bas*/
+	
+}
+
+caption{ /*texte au dessus du tableau*/
+	font-size: 20px;
+	color: red;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+p{
+	text-align: justify; /*justifier tout les paragraphes*/
+}
+
+#midi{
+		background-color: yellow;
+}
+
+#tel{
+	background-color: red;
+}
+
+footer {
+	background: black;
+	width:100%;
+	justify-content: center; /*Centrer horizontalement*/
+	display : flex;
+	padding: 30px;
+	margin-left: auto; /*pour centrer notre body ou autre block - marge "auto" et indiquer un width*/
+	margin-right: auto;
+	border : 2px solid black; 
+}
+	
+#p1 {
+		font-size: 25px;
+		color: white;
+		
+	}	
